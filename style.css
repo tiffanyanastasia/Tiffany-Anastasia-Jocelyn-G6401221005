@@ -1,0 +1,232 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family:'Courier New', Courier, monospace;
+    color: #223f72;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: none;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 25px;
+    font-weight: bold;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #472b77;
+}
+
+h2 {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #472b77;
+    width: 100%;
+    line-height: 50px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #472b77;
+    margin-bottom: none;
+}
+
+a.tbl-biru {
+    background: #D0BFFF;
+    border-radius: 20px;
+    padding: 15px 30px 15px 30px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-top: 50px;
+    margin-top: 
+}
+
+a.tbl-biru:hover {
+    background: #AC7088;
+    text-decoration: none;
+}
+
+p {
+    margin: 5px 0px 5px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.img-content {
+    height: 35%;;
+    width: 35%;
+    left: 50%;
+    border-radius: 30%;
+    top: 10%;
+    right: 10%;
+}
+
+#contact {
+    background: #F8F0E5;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    height: 60%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 50%;
+    height: 60%;l
+    margin: 0 auto;
+    margin-left: 30px;
+}
+ h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+    margin-top: 20px;
+ }
+
+.yauda {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.hadeh {
+    width: 52px;
+    height: 52px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav. menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav. menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+    }
+}
+
+.baris .me {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: none;
+    top: 20%;
+}
+
+.gatau {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.lucu {
+    height: 500px;
+    width: 700px;
+}
